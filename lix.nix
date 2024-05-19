@@ -4,5 +4,5 @@ let
   # jobset configuration.
   pkgs = (import <aux-core> {});
 in {
-  lix = pkgs.by-name.li.lix;
+  lix = pkgs.lix;
 }
