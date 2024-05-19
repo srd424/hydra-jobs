@@ -6,9 +6,10 @@ let
   pkgs = (import <nixpkgs> {});
 in {
   simplest = pkgs.stdenv.mkDerivation rec {
-  name = "test-environment";
+    name = "test-environment";
 
-  buildCommand = ''
-     echo foo >$out
-  '';
+    buildCommand = ''
+       echo foo >$out
+    '';
+  };
 }
