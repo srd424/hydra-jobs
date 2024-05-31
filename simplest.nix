@@ -9,7 +9,7 @@ in {
     name = "test-environment";
 
     buildCommand = ''
-       echo foo3 >$out
+       echo foo4 >$out
     '';
   };
 }
